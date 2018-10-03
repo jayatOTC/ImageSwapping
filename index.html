@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Change Image </title>
+
+    <script>
+        var arrayPics  = 
+        [
+            "Bainbridge_CGN25.jpg", 
+            "Perry_DE1034.jpg",
+            "Wilson_DDG7.jpg"
+        ]
+        function changeImage(swap)
+        {
+            document.getElementById('largeimage').src="Bainbridge_CGN25.jpg"; style="width: 200px";
+        }
+    </script>
+</head>
+<body>
+       
+    <img src='Bainbridge_CGN25.jpg' alt='1' 
+        onclick="document.getElementById('changeImage(1).src')" />
+    <img src='Perry_DE1034.jpg' alt='2'
+        onclick="document.getElementById('changeImage(2).src')" />
+    <img src='Wilson_DDG7.jpg' alt='3'
+     onclick="document.getElementById('changeImage(3).src')" />
+</body>
+</html>
